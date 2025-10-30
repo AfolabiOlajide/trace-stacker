@@ -1,5 +1,9 @@
 const BusinessPortalDashboard = () => {
-    return <div>BusinessPortalDashboard</div>;
+    return (
+        <div>
+            <p>Dashboard</p>
+        </div>
+    );
 };
 
 export default BusinessPortalDashboard;

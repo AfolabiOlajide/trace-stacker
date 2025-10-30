@@ -31,7 +31,7 @@ const navlinks = [
 
 const HomeNavigation = () => {
     return (
-        <nav className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200/10 dark:border-[#233c48] bg-background-light/80 dark:bg-background-dark/80 px-4 sm:px-10 py-3 backdrop-blur-sm">
+        <nav className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200/10 dark:border-[#233c48] px-4 sm:px-10 py-3 backdrop-blur-lg">
             <Link href="/">
                 <div className="flex items-center gap-4 text-gray-900 dark:text-white">
                     <div className="size-6 text-primary">
