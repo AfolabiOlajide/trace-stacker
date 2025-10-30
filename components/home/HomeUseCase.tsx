@@ -13,7 +13,7 @@ const HomeUseCase = () => {
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="p-6 flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-[#325567] bg-white dark:bg-[#192b33]">
+                <div className="p-6 flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-dark bg-white dark:bg-dark-2">
                     <Gem size={35} className="text-primary" />
                     <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-white">
                         Luxury Goods
@@ -23,7 +23,7 @@ const HomeUseCase = () => {
                         high-value items, from watches to handbags.
                     </p>
                 </div>
-                <div className="p-6 flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-[#325567] bg-white dark:bg-[#192b33]">
+                <div className="p-6 flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-dark bg-white dark:bg-dark-2">
                     <Pill size={35} className="text-primary" />
                     <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-white">
                         Pharmaceuticals
@@ -33,7 +33,7 @@ const HomeUseCase = () => {
                         from manufacturer to pharmacy, preventing fake drugs.
                     </p>
                 </div>
-                <div className="p-6 flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-[#325567] bg-white dark:bg-[#192b33]">
+                <div className="p-6 flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-dark bg-white dark:bg-dark-2">
                     <Utensils size={35} className="text-primary" />
                     <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-white">
                         Food &amp; Beverage

@@ -20,7 +20,7 @@ const HomeFeature = () => {
                 </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-[#325567] bg-white dark:bg-[#192b33] p-6 flex-col text-center items-center">
+                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-dark bg-white dark:bg-dark-2 p-6 flex-col text-center items-center">
                     <ShieldPlus size={35} className="text-primary" />
                     <div className="flex flex-col gap-1">
                         <h4 className="text-gray-900 dark:text-white text-base font-bold leading-tight">
@@ -32,7 +32,7 @@ const HomeFeature = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-[#325567] bg-white dark:bg-[#192b33] p-6 flex-col text-center items-center">
+                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-dark bg-white dark:bg-dark-2 p-6 flex-col text-center items-center">
                     <MapPin size={35} className="text-primary" />
                     <div className="flex flex-col gap-1">
                         <h4 className="text-gray-900 dark:text-white text-base font-bold leading-tight">
@@ -45,7 +45,7 @@ const HomeFeature = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-[#325567] bg-white dark:bg-[#192b33] p-6 flex-col text-center items-center">
+                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-dark bg-white dark:bg-dark-2 p-6 flex-col text-center items-center">
                     <ThumbsUp size={35} className="text-primary" />
                     <div className="flex flex-col gap-1">
                         <h4 className="text-gray-900 dark:text-white text-base font-bold leading-tight">
@@ -57,7 +57,7 @@ const HomeFeature = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-[#325567] bg-white dark:bg-[#192b33] p-6 flex-col text-center items-center">
+                <div className="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-dark bg-white dark:bg-dark-2 p-6 flex-col text-center items-center">
                     <Boxes size={35} className="text-primary" />
                     <div className="flex flex-col gap-1">
                         <h4 className="text-gray-900 dark:text-white text-base font-bold leading-tight">
