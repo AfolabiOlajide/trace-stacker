@@ -1,7 +1,11 @@
+import DashboardRecentOrders from "@/components/dashboard/DashboardRecentOrders";
+import DashboardWelcome from "@/components/dashboard/DashboardWelcome";
+
 const BusinessPortalDashboard = () => {
     return (
         <div>
-            <p>Dashboard</p>
+            <DashboardWelcome />
+            <DashboardRecentOrders />
         </div>
     );
 };
