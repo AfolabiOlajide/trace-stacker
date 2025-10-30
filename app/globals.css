@@ -4,6 +4,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+    --color-dark: var(--dark);
+    --color-dark-2: var(--dark-2);
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --font-sans: var(--font-geist-sans);
@@ -77,12 +79,15 @@
     --sidebar-ring: oklch(0.708 0 0);
     /* --background: oklch(1 0 0); */
     --background: #f6f7f8;
+    --dark: #325567;
     --foreground: oklch(0.145 0 0);
 }
 
 .dark {
     /* --background: oklch(0.145 0 0); */
     --background: #101c22;
+    --dark: #325567;
+    --dark-2: #192b33;
     --foreground: oklch(0.985 0 0);
     --card: oklch(0.205 0 0);
     --card-foreground: oklch(0.985 0 0);
