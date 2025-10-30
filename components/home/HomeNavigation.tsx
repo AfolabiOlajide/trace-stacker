@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ModeToggle } from "../mode-toggle";
+import { Menu } from "lucide-react";
 
 const navlinks = [
     {
@@ -69,7 +70,7 @@ const HomeNavigation = () => {
                 </button>
             </div>
             <button className="md:hidden flex items-center justify-center p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">
-                <span className="material-symbols-outlined">menu</span>
+                <Menu size={35} className="text-primary" />
             </button>
         </nav>
     );
